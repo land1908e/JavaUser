@@ -3,13 +3,15 @@ package demo;
 public class SNT {
     int soKT;
     boolean ketQua;
-    void kiemTra(){
+
+    void kiemTra() {
         ketQua = true;
-        for (int i = 2; i < soKT/2; i++) {
-            if (soKT%i ==0){
+        for (int i = 2; i < soKT/2 ; i++) {
+            if (soKT % i == 0) {
                 ketQua = false;
             }
-
         }
+
+
     }
 }

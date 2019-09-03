@@ -22,11 +22,11 @@ public class Main {
         sNT.soKT = 10;
         sNT.kiemTra();
 
-        System.out.println("Ket qua:" + sNT.ketQua);
-        SNT nt2 = new SNT();
-        nt2.soKT = 5;
-        sNT.kiemTra();
-        System.out.println("Ket qua:" + nt2.ketQua);
+        System.out.println("Ket qua 1:" + sNT.ketQua);
+        SNT sNT2 = new SNT();
+        sNT2.soKT = 11;
+        sNT2.kiemTra();
+        System.out.println("Ket qua:" + sNT2.ketQua);
 
     }
 }
