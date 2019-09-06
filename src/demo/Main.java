@@ -27,6 +27,6 @@ public class Main {
         sNT2.soKT = 11;
         sNT2.kiemTra();
         System.out.println("Ket qua:" + sNT2.ketQua);
-
+        System.out.println("AAAAA")
     }
 }
